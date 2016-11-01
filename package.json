@@ -1,0 +1,33 @@
+{
+  "name": "git-bit-bounty",
+  "version": "0.0.1",
+  "description": "Bitcoin bountys on GitHub issues",
+  "scripts": {
+    "compile": "tsc",
+    "compile-w": "tsc --watch",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sogasg/gbb-back.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "github",
+    "bounty"
+  ],
+  "author": "Cluda",
+  "bugs": {
+    "url": "https://github.com/sogasg/gbb-back/issues"
+  },
+  "homepage": "https://github.com/sogasg/gbb-back#readme",
+  "dependencies": {
+    "ajv": "^4.8.2",
+    "axios": "^0.15.2",
+    "bluebird": "^3.4.6",
+    "ramda": "^0.22.1"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
